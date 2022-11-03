@@ -34,8 +34,8 @@ public void IOS_Base_File () throws MalformedURLException
 	
 	XCUITestOptions options = new XCUITestOptions();
 	options.setDeviceName("Iphone 14 pro");
-	options.setApp("");
-	options.setPlatformVersion("");
+	options.setApp("//Users//mohitgaur//Library//Developer//Xcode//DerivedData//UIKitCatalog-bgwcwtgetrjxsnbnkbvujdyzuapo//Build//Products//Debug-iphonesimulator//UIKitCatalog.app");
+	options.setPlatformVersion("16");
 	options.setWdaLaunchTimeout(Duration.ofSeconds(20));
 	
 	 driver =  new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub/"), options);
