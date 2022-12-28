@@ -36,6 +36,11 @@ public void IOS_Base_File () throws MalformedURLException
 	options.setDeviceName("Iphone 14 pro");
 	options.setApp("//Users//mohitgaur//Library//Developer//Xcode//DerivedData//UIKitCatalog-bgwcwtgetrjxsnbnkbvujdyzuapo//Build//Products//Debug-iphonesimulator//UIKitCatalog.app");
 	options.setPlatformVersion("16");
+	/*d.setCapability("xcodeOrgId","xxxx"); // "team id" from developer account from apple.com
+	 * d.setCapability("xcodeSignId","iphone developer");
+	 * d.setCapability("Udid","xxxx");   // got from i tune summary page
+	 * d.setCapability("updateWDABundleId","xxxx");
+	 */
 	options.setWdaLaunchTimeout(Duration.ofSeconds(20));
 	
 	 driver =  new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub/"), options);
@@ -46,6 +51,7 @@ public void IOS_Base_File () throws MalformedURLException
 	options.setAppActivity("com.androidsample.generalstore.SplashActivity");
 	
 */
+	 
 	
 
 }	
